@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="facebook_app_id">314059325610443</string>
+
+    <string name="title_activity_empty">Empty</string>
+    <string name="menu_top_stories">Like Us on Facebook</string>
+    <string name="menu_tech">My Library</string>
+    <string name="menu_local">About Us</string>
+    <string name="menu_top_stories_1">Share</string>
+    <string name="menu_sports_1">Translate</string>
+    <string name="menu_tech_1">Browse a File and Listen</string>
+   <!--> <string name="menu_local_1">Settings</string><-->
+    <string-array name="fan_labels">
+        <item>@string/menu_top_stories</item>
+        <item>@string/menu_local</item>
+        <item>@string/menu_tech</item>
+        <item>@string/menu_top_stories_1</item>
+  <!-->      <item>@string/menu_local_1</item><-->
+        <item>@string/menu_sports_1</item>
+        <item>@string/menu_tech_1</item>
+    </string-array>
+    <string name="title_activity_pdf_or_text">PdfOrText</string>
+    <string name="choose_lang">Choose Language</string>
+    <string-array name="lang">
+        <item>HINDI</item>
+        <item>SPANISH</item>
+        <item>FRENCH</item>
+        <item>GERMAN</item>
+        <item>ITALIAN</item>
+        <item>CHINESE</item>
+        <item>ARABIC</item>
+        <item>PORTUGUESE</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>

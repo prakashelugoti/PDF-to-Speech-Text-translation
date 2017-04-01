@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:clipToPadding="true"
+    tools:context=".FanMenuButtons1Activity">
+
+
+    <com.example.prakashreddy45.project.FanMenuButtons
+        android:id="@+id/myFABSubmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:paddingRight="@dimen/fab_submenu_margin_right"
+        android:paddingBottom="@dimen/fab_submenu_margin_bottom"
+        android:textSize="14sp"
+        app:fanMenuLabels="@array/fan_labels"
+        app:fanButtonColors="@array/button_colors"
+        app:fanLeftDrawable="@array/button_icons"
+        app:fanRememberMovedPosition="true"
+        app:fanMinBounceBackAngle="-30"
+        app:fanMaxBounceBackAngle="50"
+        android:visibility="invisible"
+        app:elevation="4dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/myFAB"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@android:color/holo_green_dark"
+        android:src="@drawable/menu"
+        app:elevation="4dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/clickbelo"
+        android:layout_above="@+id/myFAB"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click corner button for Menu"
+        android:id="@+id/textView"
+        android:textColor="#fb1e1e"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
